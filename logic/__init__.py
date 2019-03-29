@@ -14,7 +14,7 @@ class Logic:
 		self.string1_wildcard = 0
 		self.string2_wildcard = 0
 
-	def magic(self):
+	def load_hash(self):
 		# Assigning values to the string1_hash and string2_hash based on the availability of the the alphabets 
 		for char in self.string1:
 			# Checking for wildcard entries
@@ -29,6 +29,7 @@ class Logic:
 			else:
 				self.string2_wildcard += 1
 
+	def calculate_mismatch(self):
 	    # Checking for mismatches
 		if self.string1_len > self.string2_len : 
 			for i in range(26):
@@ -48,3 +49,7 @@ class Logic:
 				return True
 			else:
 				return False
+
+	def match(self):
+		self.load_hash()
+		return self.calculate_mismatch()
