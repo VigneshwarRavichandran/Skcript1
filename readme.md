@@ -25,24 +25,26 @@ The cli commands were referred from click `https://click.palletsprojects.com/en/
 ```
 $ magic --string1 "edzlatsh" --string2 "hazel"
 ```
-
 returns "True" for the above case.
+
 
 ```
 $ magic --string1 "uwtaqicy" --string2 "watch"
 ```
 returns "False" for the above case.
 
+
 ```
 $ magic --string1 "d??????" --string2 "code"
 ```
-
 returns "True" for the above case.
+
 
 ```
 $ magic --string1 "g???" --string2 "code"
 ```
 returns "False" for the above case.
+
 
 #### To do longest
 
