@@ -14,7 +14,7 @@ class Logic:
 		self.string1_wildcard = 0
 		self.string2_wildcard = 0
 
-	def match(self):
+	def magic(self):
 		# Assigning values to the string1_hash and string2_hash based on the availability of the the alphabets 
 		for char in self.string1:
 			# Checking for wildcard entries
