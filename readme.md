@@ -58,7 +58,7 @@ returns "greengrocery" for the above case.
 
 ## Testing
 The test file is located in the `skcript1/tests/test_logic.py`
-The unit testing is done by nosetests. 
+The unit testing is done by nosetests `https://nose.readthedocs.io/en/latest/`. 
 
 The function to test whether the string are alphabet
 ```
@@ -77,3 +77,6 @@ magic("g???", "code") -> false
 ```
 test_example_2(self)
 ```
+
+
+
