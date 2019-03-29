@@ -2,7 +2,12 @@
 from logic import Logic
 
 def longest(string, filename="enable1.txt"):
-	file = open(filename, "r") 
+	try:
+		file = open(filename, "r") 
+	except:
+		print("File Not Found")
+		return None
+		
 	max_letter = ""
 	for line in file.read().splitlines():
 		logic = Logic(string, line)
