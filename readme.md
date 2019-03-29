@@ -65,18 +65,19 @@ The function to test whether the string are alphabet
 test_is_alpha(self)
 ````
 The function to test : 
+
 magic("edzlatsh", "hazel") -> true
+
 magic("d??????", "code") -> true
 ```
 test_example_1(self)
 ```
 The function to test : 
+
 magic("uwtaqicy", "watch") -> false
+
 magic("g???", "code") -> false
 
 ```
 test_example_2(self)
 ```
-
-
-
