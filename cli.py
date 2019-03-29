@@ -12,7 +12,10 @@ def main():
 @click.option('--string2')
 def magic(string1, string2):
     logic = Logic(string1, string2)
-    print(logic.match())
+    if logic.match():
+    	print("Yes, '{0}' can be created".format(string2))
+    else:
+    	print("No, '{0}' can't be created".format(string2))
 
 @main.command()
 @click.option('--string')
