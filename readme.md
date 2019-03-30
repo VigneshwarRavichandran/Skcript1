@@ -63,6 +63,11 @@ returns "greengrocery" for the above case.
 The test file is located in the `skcript1/tests/test_logic.py`
 The unit testing is done by nosetests `https://nose.readthedocs.io/en/latest/`. 
 
+The command to the test:
+``
+nosetests
+``
+
 The function to test whether the string are alphabet
 ```
 test_is_alpha(self)
