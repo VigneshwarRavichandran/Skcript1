@@ -50,12 +50,12 @@ returns "False" for the above case.
 #### To do longest
 
 ```
-$ longest --string "uruqrnytrois" --filename enable1.txt
+$ longest --string "uruqrnytrois"
 ```
 returns "turquois" for the above case.
 
 ```
-$ longest --string "rryqeiaegicgeo??" --filename enable1.txt
+$ longest --string "rryqeiaegicgeo??"
 ```
 returns "greengrocery" for the above case.
 
