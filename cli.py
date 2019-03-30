@@ -19,8 +19,7 @@ def magic(string1, string2):
 
 @main.command()
 @click.option('--string')
-@click.option('--filename')
-def longest(string, filename):
+def longest(string, filename="enable1.txt"):
 	try:
 		file = open(filename, "r") 
 	except:

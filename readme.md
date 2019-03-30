@@ -13,6 +13,7 @@ $ pip install -r requirements.txt
 This install the logic as python packages:
 ```
 $ python setup.py install
+$ python setup.py develop
 ```
 
 
